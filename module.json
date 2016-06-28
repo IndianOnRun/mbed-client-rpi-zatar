@@ -1,0 +1,16 @@
+{
+  "name": "mbed-client-rpi-zatar",
+  "version": "1.0.0",
+  "description": "Sample mbed client on rpi for zatar",
+  "keywords": [
+    "mbed-client"
+  ],
+  "author": "tberarducci@zebra.com",
+  "license": "GPL2",
+  "extraIncludes": [],
+  "dependencies": {
+    "mbed-client": "^1.0.0"
+  },
+  "targetDependencies": {},
+  "bin": "./source/"
+}
