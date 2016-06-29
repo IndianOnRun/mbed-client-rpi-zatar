@@ -4,32 +4,30 @@ Sample code that demonstrates how to use ARM mBed Client on Raspberry Pi with pi
 
 ### License
 
-*
-* README.md
-*
-* (c) Zebra Technologies Corporation 2016
-* Copyright (C) 2016 ZIH Corp and/or its affiliates.
-*
-* Description:
-*         This README is for the Raspberry Pi Sample code for Zatar
-* Revision History:
-*         05/2016   Zebra Technologies Corporation
-*
-* License(s):
-*   This program is free software; you can redistribute it and/or modify
-*   it under the terms of the GNU General Public License version 2 as
-*   published by the Free Software Foundation.
-*
-*   This program is distributed in the hope that it will be useful,
-*   but WITHOUT ANY WARRANTY; without even the implied warranty of
-*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*   GNU General Public License for more details.
-*
-*   You should have received a copy of the GNU General Public License
-*   along with this program; if not, write to the Free Software
-*   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
-*   02110-1301, USA.
-*
+README.md
+
+Copyright (C) 2016 ZIH Corp and/or its affiliates.
+
+ Description:
+         This README is for the Raspberry Pi Sample code for Zatar
+ Revision History:
+         06/2016   Zebra Technologies Corporation
+
+ License(s):
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License version 2 as
+   published by the Free Software Foundation.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+   02110-1301, USA.
+
 
 
 ### Main Features of this Project
