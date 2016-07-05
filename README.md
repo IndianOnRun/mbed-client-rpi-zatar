@@ -71,9 +71,9 @@ Copyright (C) 2016 ZIH Corp and/or its affiliates.
 11. Install yotta on the virtual environment by typing:
  > sudo pip install -U yotta
 12. Clone this repo into the mbed-venv virtual environment directory by typing:
- > Git clone https://github.com/zatar-iot/mbed-client-rpi-sample.git
+ > Git clone http://github.com/zatar-iot/mbed-client-rpi-zatar.git
 13. Change into the project directory:
- > cd mbed-client-rpi-sample
+ > cd mbed-client-rpi-zatar
 14. Set the yotta target for your project by typing:
  > yotta target arm-linux-native
 15. At this point you should be prompted to log into your mbed account to download the mbed client components from ARM. If you do not have an mbed account you will need to create one. Go to _**http://developer.mbed.org**_ and log in. Once successfully logged in to your mBed acount, **THEN HIT ENTER** at the command line prompt to initiate the download of necessary components.
