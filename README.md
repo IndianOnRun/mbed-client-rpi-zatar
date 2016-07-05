@@ -93,6 +93,7 @@ Copyright (C) 2016 ZIH Corp and/or its affiliates.
 ### II. Configure your project with your own custom Device Code Token (DCT)
 
 * IMPORTANT: BEFORE this code will operate properly, you **MUST** go to [the Zatar Dev Zone](https://developer.zatar.com), register for a FREE developer account, and use the Device Software Manager application (left toolbar) to check out a Device Code Token (DCT). Put this DCT into your code in the module called "ZatarDeviceAuth.cpp". Go to that file and search for "DEVICE_TOKEN" and put your DCT where indicated.
+
 >_Without the DCT properly configured, the program will build, run and successfully register on Zatar, however Zatar will ignore and disregard any data coming from the device unless the DCT is valid. Your device will appear in the "claimed" state in your account on Zatar and never be updated_.
 
 ### III. Build and Run Your Code
