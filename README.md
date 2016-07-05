@@ -53,18 +53,22 @@ Copyright (C) 2016 ZIH Corp and/or its affiliates.
 >You will need to have an account and log into it at **_developer.mbed.org_** in order to download the mbed client components needed to build your project, so if you do not have an mbed account you will need to create one to complete this project.
 3. First make sure you have updated the OS to latest versions by typing the following at the command prompt:
  > sudo apt-get update
+
 4. Now install the yotta dependencies by typing in the following command at the command prompt:
  > sudo apt-get install python-setuptools  cmake build-essential ninja-build python-dev libffi-dev libssl-dev
 5. Install gcc compiler by typing in the following command at the command prompt:
- > sudo apt-get install gcc-arm-none-eabi 
+ > sudo apt-get install gcc-arm-none-eabi
+
 6. Update pip by typing _(Note: Make sure that this operation causes pip to be updated to v8.1.2 or later. This is required in order for yotta to install properly.)_:
  > sudo pip install -U pip
 7. Install python virtual environment by typing:
  > sudo pip install virtualenv
+
 8. Create the virtual environment by typing:
  > virtualenv mbed-venv
 9. Change to the virtual env directory:
  > cd mbed-venv
+
 10. Activate the virtual environment (to deactivate later, type “deactivate”). After this is done, you’ll see (mbed-venv) in front of the usual command prompt.:
  > source ./bin/activate 
 
@@ -72,10 +76,12 @@ Copyright (C) 2016 ZIH Corp and/or its affiliates.
  > sudo pip install -U yotta
 12. Clone this repo into the mbed-venv virtual environment directory by typing:
  > Git clone http://github.com/zatar-iot/mbed-client-rpi-zatar.git
+
 13. Change into the project directory:
  > cd mbed-client-rpi-zatar
 14. Set the yotta target for your project by typing:
  > yotta target arm-linux-native
+
 15. At this point you should be prompted to log into your mbed account to download the mbed client components from ARM. If you do not have an mbed account you will need to create one. Go to _**http://developer.mbed.org**_ and log in. Once successfully logged in to your mBed acount, **THEN HIT ENTER** at the command line prompt to initiate the download of necessary components.
 16. Now you are ready to build and run code using yotta and the virtual environment. 
  > If you want you can verify that you can successfully build your code at this point by typing "yotta build" or "yt build" at the command prompt. The first time you do this, yotta will go out to the Internet and gather all the components necessary to build using mBed Client prior to building your project. This should all occur without error, however the resultant executable will not yet work with Zatar without completing the remaining steps in these instructions.
@@ -92,8 +98,9 @@ Copyright (C) 2016 ZIH Corp and/or its affiliates.
 ### III. Build and Run Your Code
 * Build your code by typing:
  > yotta build
+
 * You can then run the executable by typing:
- > ./build/arm-linux-native/source/mbed-client-rpi-zatar
+ > sudo ./build/arm-linux-native/source/mbed-client-rpi-zatar
 
 ### IV. Log into your account on Zatar and claim your device
 * The serial number of your pi should be displayed on the Pi's console along with some other information indicating successful registration. If so, then go to [Zatar](https://www.zatar.com/rdm-js) and log into your account and claim your device using the instructions for the [Zatar Rpi Demo](https://bitbucket.org/tberarducci/mbed-client-rpi-executables).
